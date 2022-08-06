@@ -1,10 +1,37 @@
-# Oi, tudo bem? Chegou aqui através do curso, certo? 🙃
+# Compartilhagram
 
-Esse é o repositório da nossa aula de Flexbox, na qual vamos fazer a interface de login do Instagram! 
+Clone do Instagram
 
-### Os requisitos são:
+## 📌 Sobre este Projeto
 
-* [HTML básico](https://www.w3schools.com/html/)
-* [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+Website Compartilhagram foi um projeto desenvolvido no curso Recriando a página inicial do Instagram da Digital Innovation One, utilizando em HTML, CSS, JS.
 
-## 🚀 Let's code! 🚀
+## 💡 Por quê?
+
+Este projeto faz parte do meu portfólio pessoal, então, ficarei feliz se você puder me fornecer algum feedback sobre o projeto, código, estrutura ou qualquer coisa que você possa relatar que possa me tornar um desenvolvedor melhor!
+
+Email: gustavo-mmello@hotmail.com
+
+Conecte-se comigo em [LinkedIn](https://www.linkedin.com/in/gustavo-m-mello/)
+
+## 🖥️ Tecnologias
+
+- HTML5
+- CSS3
+- Javascript
+
+
+## 🌎 Ver Site Funcionando
+
+[Ver site](https://gustavo-mmh.github.io/compartilhagram-dio/)
+
+## ⚠️ Instalando -Website de Portfólio Pessoal-
+
+Para Clonar o repositório de *compartilhagram-dio*, faça:
+
+```
+$ git clone https://github.com/gustavo-mmh/compartilhagram-dio.git
+
+$ cd compartilhagram-dio
+
+```
