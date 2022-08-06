@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/javascript/script.js" />
+
+    <title>Compartilhagram</title>
+    <script>
+      function NameUser() {
+        let person = prompt("Digite seu Usuário", "...");
+        if (person != null) {
+          document.getElementById("compartilhagram-login").textContent =
+            "Continue como " + person;
+          document.getElementById("not-account").textContent =
+            "Não é você " + person + "?";
+        }
+      }
+    </script>
+  </head>
+  <body onload="window.onload = NameUser()">
+    <div class="compartilhagram-wrapper">
+      <div class="compartilhagram-phone">
+        <div class="troca-imagem"></div>
+      </div>
+      <div class="compartilhagram-continue">
+        <div class="group">
+          <img
+            src="./assets/img/compartilhagram-logo.png"
+            class="compartilhagram-logo"
+            alt="compartilhagram logo"
+          />
+          <div class="profile-photo">
+            <img
+              src="./assets/img/perfil-compartilhagram.png"
+              alt="foto de perfil"
+            />
+          </div>
+          <a href="#" id="compartilhagram-login" class="compartilhagram-login"
+            >Faça Login</a
+          >
+          <a href="#" class="compartilhagram-logout">Remover conta</a>
+        </div>
+        <div class="group">
+          <p id="not-account" class="not-account">Não é você?</p>
+          <p class="not-account">
+            <span class="link-blue">Alternar contas</span>
+            ou
+            <span class="link-blue">Inscreva-se</span>
+          </p>
+        </div>
+        <div class="get-the-app">
+          <p class="get-app">Baixe o aplicativo</p>
+          <div class="download">
+            <a href="#" class="app-download"></a>
+            <a href="#" class="app-download"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
