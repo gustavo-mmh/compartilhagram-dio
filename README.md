@@ -4,7 +4,7 @@ Clone do Instagram
 
 ## 📌 Sobre este Projeto
 
-Website Compartilhagram foi um projeto desenvolvido no curso Recriando a página inicial do Instagram da Digital Innovation One, utilizando em HTML, CSS, JS.
+Website Compartilhagram foi um projeto desenvolvido no curso Recriando a página inicial do Instagram da Digital Innovation One, utilizando HTML e CSS.
 
 ## 💡 Por quê?
 
